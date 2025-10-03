@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Text Colors */
+    --text-primary: #131313;
+    --text-secondary: #1e1e1e;
+    --text-muted: #2724244c;
+    --text-accent: #3805f2;
+    --text-white: #ffffff;
+    --text-white-muted: #ffffff66;
+
+    /* Global Background Colors */
+    --bg-primary: #131313;
+    --bg-accent: #3805f2;
+    --bg-white: #ffffff;
+
+    /* Global Border Colors */
+    --border-primary: #2724244c;
+    --border-white-muted: #ffffff4c;
+    --border-white-secondary: #ffffff66;
+
+    /* Typography Variables */
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 22px;
+    --font-size-3xl: 24px;
+    --font-size-4xl: 40px;
+    --font-size-5xl: 56px;
+    --font-size-6xl: 64px;
+
+    /* Font Weight Variables */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Line Height Variables */
+    --line-height-xs: 15px;
+    --line-height-sm: 17px;
+    --line-height-base: 19px;
+    --line-height-lg: 20px;
+    --line-height-xl: 22px;
+    --line-height-2xl: 23px;
+    --line-height-3xl: 26px;
+    --line-height-4xl: 27px;
+    --line-height-5xl: 28px;
+    --line-height-6xl: 33px;
+    --line-height-7xl: 34px;
+    --line-height-8xl: 38px;
+    --line-height-9xl: 53px;
+    --line-height-10xl: 56px;
+    --line-height-11xl: 60px;
+    --line-height-12xl: 78px;
+
+    /* Spacing Variables */
+    --spacing-xs: 4px;
+    --spacing-sm: 6px;
+    --spacing-md: 10px;
+    --spacing-lg: 12px;
+    --spacing-xl: 14px;
+    --spacing-2xl: 16px;
+    --spacing-3xl: 18px;
+    --spacing-4xl: 20px;
+    --spacing-5xl: 22px;
+    --spacing-6xl: 24px;
+    --spacing-7xl: 26px;
+    --spacing-8xl: 28px;
+    --spacing-9xl: 30px;
+    --spacing-10xl: 32px;
+    --spacing-11xl: 34px;
+    --spacing-12xl: 36px;
+    --spacing-13xl: 38px;
+    --spacing-14xl: 40px;
+    --spacing-15xl: 42px;
+    --spacing-16xl: 44px;
+    --spacing-17xl: 46px;
+    --spacing-18xl: 50px;
+    --spacing-19xl: 56px;
+    --spacing-20xl: 62px;
+    --spacing-21xl: 64px;
+    --spacing-22xl: 76px;
+    --spacing-23xl: 80px;
+    --spacing-24xl: 94px;
+
+    /* Border Radius Variables */
+    --radius-none: 0px;
+    --radius-sm: 14px;
+    --radius-md: 18px;
+    --radius-lg: 20px;
+    --radius-xl: 26px;
+    --radius-2xl: 28px;
+    --radius-3xl: 34px;
+    --radius-4xl: 54px;
+    --radius-5xl: 60px;
+    --radius-6xl: 74px;
+    --radius-full: 110px;
+
+    /* Component-specific Colors */
+    --header-text: var(--text-white);
+    --header-menu-text: var(--text-white);
+    --button-primary-bg: var(--bg-accent);
+    --button-primary-text: var(--text-white);
+    --button-secondary-bg: var(--bg-white);
+    --button-secondary-text: var(--text-primary);
+    --dropdown-text: var(--text-white-muted);
+    --dropdown-border: var(--border-white-secondary);
+    --input-text: var(--text-muted);
+    --input-border: var(--border-primary);
+  }
+}
